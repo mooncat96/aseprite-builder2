@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       tag_name:
-        description: 'the tag(version) of the Aseprite'
+        description: 'Aseprite v1.3.8.1'
         required: true
 jobs:
   build:
